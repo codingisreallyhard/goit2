@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(227, 217, 201);
+  font-family: montserrat alternates, sans-serif;
+}
+
+.right-selection {
+  padding-left: 88px;
+}
+
+.main-selection {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 40px auto;
+}
+
+.About-me-saction {
+  font-size: 14px;
+  color: black;
+}
+
+.projects-section {
+  color: rgb(255, 0, 174);
+  font-size: 25px;
+}
+#firstElement {
+  color: darkgreen;
+}
+
+.About-me-saction {
+  background-color: red;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  margin-bottom: 50px;
+}
+.project-sections {
+  background-color: darkorange;
+}
+
+.experienta-profesionala {
+  background-color: aqua;
+}
+/* slidebar styles */
+.sidebar-section {
+  background-color: #1e2939;
+  width: 370px;
+}
+.sidebar-section img {
+  margin-top: 40px;
+}
+.Sidebar-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+}
+
+.contacts-section .tech-skills-section {
+  margin-left: 40px;
+}

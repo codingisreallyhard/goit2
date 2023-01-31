@@ -1,0 +1,58 @@
+body {
+  background-color: #e5e5e5;
+  font-family: "montserrat Alternates", sans-serif;
+}
+
+.about-me-profession {
+  font-size: 14px;
+  color: black;
+}
+li {
+  color: blue;
+}
+#firstElement {
+  color: green;
+}
+.main-section {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.projrct-section_li {
+  color: brown;
+  font-size: 25px;
+}
+/* Sidebar styles*/
+.sidebar-section {
+  background-color: #595959;
+}
+.sidebar-section img {
+  margin-top: 40px;
+}
+
+.sidebar-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+}
+.contacts-section,
+.tech-section {
+  margin-left: 40px;
+}
+
+.contacts-section {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.contacts-section-value {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}

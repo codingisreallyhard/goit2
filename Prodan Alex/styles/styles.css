@@ -1,0 +1,97 @@
+body {
+  background-color: #e5e5e5;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.right-section {
+  padding-left: 5px;
+}
+
+.about-me-profession {
+  background-color: bisque;
+  font-size: 14px;
+}
+
+.main-section {
+  width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.about-me-section {
+  font-size: 15px;
+  color: blueviolet;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-right: 25px;
+  margin-bottom: 25px;
+}
+
+.projects-sections {
+  background-color: rgb(198, 167, 145);
+}
+
+.work-experience-section {
+  background-color: burlywood;
+}
+
+/* Sidebar styles */
+
+.sidebar-section {
+  background-color: rgb(219, 209, 196);
+  width: 270px;
+  padding-top: 50px;
+}
+
+.sidebar-section img {
+  margin-top: 5px;
+  display: flex;
+  padding-top: 50px;
+}
+
+.sidebar-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+}
+
+.contacts-section {
+  margin-left: 5px;
+}
+
+.tech-skills-section {
+  margin-left: 5px;
+}
+
+.contacts-section-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.contacts-section-value {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: brown;
+}
+
+.sidebar-list ul {
+  color: #fb6d3a;
+  padding-left: 10px;
+}
+
+.sidebar-list ul span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: violet;
+}

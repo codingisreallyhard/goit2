@@ -1,0 +1,103 @@
+body {
+  background-color: #e5e5e5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.right-section {
+  padding-left: 88px;
+}
+
+.about-me-profesion {
+  font-size: 14px;
+  color: black;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 40px auto;
+}
+
+.about-me-section {
+  background-color: red;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  margin-bottom: 50px;
+  font-weight: lighter;
+}
+.projects-section {
+  background-color: chocolate;
+}
+
+.work-experience-section {
+  background-color: aqua;
+}
+
+/* sidebar styles */
+
+.sidebar-section {
+  background-color: #1e2939;
+  width: 370px;
+}
+
+.sidebar-section img {
+  margin-top: 40px;
+}
+
+.contacts-section,
+.tech-skills-section,
+.soft-skills-section {
+  margin-left: 40px;
+}
+
+.contacts-section-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.contacts-section-value {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #3a4352;
+}
+
+.sidebar-list {
+  color: #fb6d3a;
+  padding-left: 15px;
+}
+
+.sidebar-list span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.sidebar-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+}
+
+.sidebar-list-soft {
+  color: #fb6d3a;
+}
+
+.sidebar-list-soft span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}

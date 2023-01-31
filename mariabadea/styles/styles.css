@@ -1,0 +1,33 @@
+body {
+  background-color: #E5E5E5 ;  
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+li {
+    color: rgb(255, 8, 144);
+}
+.main-section {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.about-me-profession {
+    font-size: 14px;
+    color: black;
+}
+
+
+.projects-section_li {
+    color: blue;
+     font-size: 25px; 
+}
+#firstElement {
+    color: rgb(96, 5, 126);
+}
+.about-me-section {
+    background-color: rgb(255, 14, 14);
+}
+.work-experience-section {
+   background-color: aqua;
+}
+.sidebar-section {
+   background-color: cornflowerblue;
+}

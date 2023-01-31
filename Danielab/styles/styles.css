@@ -1,0 +1,91 @@
+body {
+    background-color:#E5E5E5;
+    font-family: 'Montserrat Alternates', sans-serif;
+ }
+ li  {color: blue; 
+}
+.about-me-profession  {
+    font-size: 14px;
+    color: black;
+ }
+
+ .main-section  {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+
+.projects.section___li  { 
+color: brown;
+font-size: 25px;
+}
+
+#firstElement  {
+    color: darkgreen;
+ }
+ .about-me-section  {
+    background-color: red;
+  }
+
+ .work-experience-section  {
+    background-color: aqua;
+  }
+
+ .sidebar-section {
+    background-color: #1E2939;
+    width: 370px;
+  } 
+ .sidebar-section img { 
+margin-top: 40px;
+ } 
+ .sidebar-title  {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+
+  }
+
+  .contacts-section, .tech-skills-section { 
+    margin-left: 40px;
+  }
+ 
+  .contacts-section-type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+   } 
+   .contacts-section-value {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #3A4352;
+    } 
+    .sidebar-list {
+color:#FB6D3A;
+padding-left: 15px;
+     } 
+     .sidebar-list span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #fff;
+      }
+      .contacts-section, .soft-skills section { 
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #fff;
+      }
+      .sidebar-list {
+        color: #FB6D3A;
+        padding-left: 15px;
+       }
+    

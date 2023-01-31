@@ -1,0 +1,25 @@
+body {
+  background-color: #E5E5E5;
+  font-family: 'Montserrat', sans-serif;  
+}
+
+.main-section {
+    display: flex; 
+    flex-direction: row-reverse; 
+}
+
+#firstElement {
+    color: green;
+}
+
+.about-me-section {
+    background-color: red;
+}
+
+.Work-experience-section {
+    background-color: aqua;
+}
+
+.sidebar-section {
+    background-color: #1E2939;
+}

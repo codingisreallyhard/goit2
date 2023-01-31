@@ -3,30 +3,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-/* Right section styles */
-
-.right-section {
-  padding-left: 88px;
-}
-
-.about-me-profession {
-  font-size: 14px;
-  color: black;
-  font-style: FontMontserrat;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17.07px;
-  margin-top: 100px;
-}
-
-#personName {
-  font-style: FontMontserrat;
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 54.86px;
-  margin-top: 30px;
-}
-
 .main-section {
   display: flex;
   flex-direction: row-reverse;
@@ -34,18 +10,41 @@ body {
   margin: 40px auto;
 }
 
+/* Right section styles */
+
 .right-section {
   padding-left: 90px;
+  padding-right: 220px;
   background-color: #ffffff;
-  padding-right: 210px;
+}
+
+.about-me-profession {
+  color: black;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 100px;
+}
+
+#personName {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  margin-top: 30px;
 }
 
 .about-me-section {
+  padding-top: 15px;
   width: 400px;
+  /* Acestea le stergem intrucat vom specifica in dreptul fiecarei clase mai jos; 
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    */
 }
 
 .about-me-section p {
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -53,12 +52,12 @@ body {
   color: #595959;
 }
 
-.projects-section {
+.project-section {
   margin-top: 40px;
+  /* Se mai poate scrie si "margin: 40px 0 0 0;" - in directia acelor de ceasornic (top, right, bottom, left) */
 }
 
 .block-title {
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -66,25 +65,23 @@ body {
   color: #000000;
 }
 
-.projects-section ol {
-  padding-left: 20px;
+.project-section ol {
+  padding-left: 18px;
 }
 
-ol li,
 .bracket {
   font-weight: 700;
   color: #000000;
 }
 
 .projects-item {
-  font-family: "Montserrat";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 14px;
   line-height: 24px;
   text-decoration-line: underline;
   color: #595959;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .projects-item a {
@@ -96,20 +93,17 @@ ol li,
 }
 
 .work-experience-position {
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
 }
 
-.work-experience-company,
-.education-institution {
+.work-experience-company {
   color: #fb6d3a;
 }
 
-.period {
-  font-family: "Montserrat";
+.work-experience-period {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -121,12 +115,7 @@ ol li,
   color: #000000;
 }
 
-.work-experience-duties {
-  padding-left: 18px;
-}
-
 .work-experience-duties li {
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -134,28 +123,35 @@ ol li,
   color: #595959;
 }
 
-.education-section {
-  margin-top: 45px;
-  margin-bottom: 100px;
+.work-experience-duties {
+  padding-left: 18px;
 }
 
-.education-course {
-  font-family: "Montserrat";
+.university-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.university-profile {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
+  color: #000000;
 }
 
-/* Sidebar Styles */
+/* Sidebar styles */
 
 .sidebar-section {
   background-color: #1e2939;
+  width: 370px;
 }
 
 .sidebar-section img {
-  margin-top: 45px;
-  margin-bottom: 50px;
+  margin-top: 40px;
 }
 
 .sidebar-title {
@@ -166,12 +162,12 @@ ol li,
   color: #ffffff;
 }
 
-.contact-section,
-.skills-section {
+.contacts-section,
+.tech-skills-section {
   margin-left: 40px;
 }
 
-.contact-section-type {
+.contacts-section-type {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -180,21 +176,41 @@ ol li,
   margin-right: 10px;
 }
 
-.contact-section-value {
+.contacts-section-value {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #8e949c;
+  color: #565e6a;
 }
+
+/* Se foloseste aceasta adnotatie in cazul in care nu este nevoie neaparat sa adaugam o clasa fiind
+niste elemente simple, care nu sunt repetitive; in cazul in care adaugam clasa procedam ca mai jos
+.tech-skills-section ul {
+    color: #FB6D3A;
+}
+*/
 
 .sidebar-list {
   color: #fb6d3a;
   padding-left: 20px;
 }
 
+/* Se foloseste aceasta adnotatie in cazul in care nu este nevoie neaparat sa adaugam o clasa fiind
+niste elemente simple, care nu sunt repetitive; in cazul in care adaugam clasa procedam ca mai jos
+.tech-skills-section ul li span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+*/
+
+/* In cazul in care sunt mai multe specificatii de trecut, culoare, anumite stiluri de font etc,
+in loc sa se specifice componenta mama (clasa), apoi tagul, e mai usor sa primeasca o clasa */
 .sidebar-list span {
-  font-style: "Montserrat";
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
